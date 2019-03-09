@@ -2,6 +2,10 @@
   "name": "hapi-ado-core-plugins",
   "version": "1.0.0",
   "description": "Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wavemotionio/hapi-ado-core-plugins.git"
+  },
   "main": "index.js",
   "files": [
     "lib/"
