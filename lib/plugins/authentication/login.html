@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="viewport" content="width = device-width, minimal-ui, initial-scale = 1, user-scalable = no" />
+        <meta name="apple-mobile-web-app-title" content="Demo">
+        <title>Demo</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.11/js/adal.min.js"></script>
+    </head>
+    <body class="container" style="margin:0px;padding:0px;overflow:hidden">
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                var clientId = '{{appConfig.clientId}}';
+                var replyUri = '{{appConfig.loginUrl}}';
+                var logoutRedirectUri = '{{appConfig.loginUrl}}/logout';
+                var azureDevOpsApi = '{{appConfig.adoApiUri}}';
+                var azureDevOpsResourceId = '{{appConfig.adoResourceId}}';
+                var authContext = new AuthenticationContext({
+                    clientId: clientId,
+                    redirectUri: replyUri,
+                    postLogoutRedirectUri: logoutRedirectUri
+                });
+
+                if (authContext.isCallback(window.location.hash)) {
+                    authContext.handleWindowCallback();
+                    var err = authContext.getLoginError();
+                    if (err) {
+                        document.getElementById('api_response').textContent =
+                            'ERROR:\n\n' + err;
+                    }
+                } else {
+                    if (authContext.getCachedUser()) {
+                        authContext.acquireToken(
+                            azureDevOpsResourceId,
+                            function (error, jwt) {
+                                $.ajax({
+                                    type: "POST",
+                                    url: window.location.origin,
+                                    contentType: "application/json",
+                                    beforeSend: function(xhr, settings) {
+                                        xhr.setRequestHeader("authorization", jwt);
+                                    },
+                                    success: function(data) {
+                                        if (data.status === "success") {
+                                            window.location = decodeURIComponent(window.location.href.split('?next=')[1] + '/');
+                                        }
+                                    }
+                                });
+                            }
+                        );
+                    } else {
+                        authContext.login();
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>
