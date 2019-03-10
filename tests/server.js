@@ -1,4 +1,3 @@
-
 const { authAdalWeb, documentation, serverEvents, utilities } = require('../index'),
     Hapi = require('hapi');
 

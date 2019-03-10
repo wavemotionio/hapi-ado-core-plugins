@@ -9,7 +9,6 @@ Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.
 
 ### Example
 ```
-
 const { authAdalWeb, documentation, serverEvents, utilities } = require('../index'),
     Hapi = require('hapi');
 
@@ -23,7 +22,7 @@ const server = new Hapi.Server({
 });
 
 const main = async () => {
-    console.log('Server loading. Please wait... (average time: 1-4 minutes)');
+    console.log('Server initializing...');
 
     try {
         await server.register([
