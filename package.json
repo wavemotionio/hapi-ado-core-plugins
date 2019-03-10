@@ -1,6 +1,6 @@
 {
   "name": "hapi-ado-core-plugins",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.",
   "repository": {
     "type": "git",
@@ -11,8 +11,9 @@
     "lib/"
   ],
   "scripts": {
-    "clean": "rimraf lib/azureDevops",
     "build": "rimraf lib/azureDevops && tsc && babel src --out-dir lib --extensions \".ts,.tsx\"",
+    "clean": "rimraf lib/azureDevops",
+    "dev": "npm run build && cross-env NODE_ENV=dev node tests/server.js",
     "type-check": "tsc --noEmit"
   },
   "keywords": [
@@ -33,6 +34,7 @@
     "handlebars": "^4.0.12",
     "hapi-auth-cookie": "^9.1.0",
     "hapi-swagger": "^9.3.2",
+    "inert": "^5.1.2",
     "joi": "^14.3.1",
     "lodash": "^4.17.11",
     "vision": "^5.4.4"
@@ -46,6 +48,8 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-typescript": "^7.1.0",
     "@types/node": "^10.12.18",
+    "cross-env": "^5.2.0",
+    "hapi": "^18.1.0",
     "rimraf": "^2.6.3",
     "typescript": "^3.2.2"
   }
