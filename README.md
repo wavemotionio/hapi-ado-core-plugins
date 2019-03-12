@@ -5,8 +5,6 @@
 
 [![https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-ado-core-plugins)
 
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
-
 # hapi-ado-core-plugins
 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
@@ -86,3 +84,5 @@ main().catch(console.error);
 1. https://www.npmjs.com/package/goodparts
 1. https://snyk.io/
 1. https://semantic-release.gitbook.io/semantic-release/usage/ci-configuration
+
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
