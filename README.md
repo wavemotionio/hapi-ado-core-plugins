@@ -1,6 +1,11 @@
 [![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
-[![Node version](https://img.shields.io/node/v/[hapi-ado-core-plugins].svg?style=flat)](http://nodejs.org/download/)
+[![Node version](https://img.shields.io/node/v/hapi-ado-core-plugins.svg?style=flat)](http://nodejs.org/download/)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/wavemotionio/hapi-ado-core-plugins.svg)
+![David](https://img.shields.io/david/wavemotionio/hapi-ado-core-plugins.svg)
+![David](https://img.shields.io/david/dev/wavemotionio/hapi-ado-core-plugins.svg)
+
 [![https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-ado-core-plugins)
+
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
 
 # hapi-ado-core-plugins
