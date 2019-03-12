@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
-[![Node version](https://img.shields.io/node/v/hapi-ado-core-plugins.svg?style=flat)](http://nodejs.org/download/)
+![npm (tag)](https://img.shields.io/npm/v/hapi-ado-core-plugins/latest.svg)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/dev/wavemotionio/hapi-ado-core-plugins.svg)
@@ -86,3 +86,4 @@ main().catch(console.error);
 ## To-Dos
 1. https://www.npmjs.com/package/goodparts
 1. https://snyk.io/
+1. https://semantic-release.gitbook.io/semantic-release/usage/ci-configuration
