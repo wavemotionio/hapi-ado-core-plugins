@@ -1,8 +1,12 @@
 [![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
+[![Node version](https://img.shields.io/node/v/[hapi-ado-core-plugins].svg?style=flat)](http://nodejs.org/download/)
+[![https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-ado-core-plugins)
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
 
 # hapi-ado-core-plugins
 
-Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.
+## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
+Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.  This package allows developers to quickly stand-up a hapi.js server with a security scheme that leverages the Azure Active Directory Authenitcation Library, a public health-check route, self-documenting API (hapi-swagger), and server event methods for utilizing pm2 zero downtime deployments.
 
 ## Installation
 
@@ -73,3 +77,7 @@ main().catch(console.error);
 
 1. replace config values in tests/server.js
 1. `npm run dev`
+
+## To-Dos
+1. https://www.npmjs.com/package/goodparts
+1. https://snyk.io/
