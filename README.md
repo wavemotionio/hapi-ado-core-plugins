@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
+
 # hapi-ado-core-plugins
 
 Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.
