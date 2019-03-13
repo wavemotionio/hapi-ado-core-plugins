@@ -1,14 +1,14 @@
-![GitHub package.json version](https://img.shields.io/github/package-json/v/wavemotionio/hapi-ado-core-plugins.svg)
 [![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
 [![Known Vulnerabilities](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins?targetFile=package.json)
 ![David](https://img.shields.io/david/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/dev/wavemotionio/hapi-ado-core-plugins.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a16842411d134d068e2d/maintainability)](https://codeclimate.com/github/wavemotionio/hapi-ado-core-plugins/maintainability)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/wavemotionio/hapi-ado-core-plugins.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/wavemotionio/hapi-ado-core-plugins/alerts/)
 [![Inline docs](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins)
 
-[![https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-ado-core-plugins)
+# hapi-ado-core-plugins ![GitHub package.json version](https://img.shields.io/github/package-json/v/wavemotionio/hapi-ado-core-plugins.svg) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-# hapi-ado-core-plugins
+[![https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-ado-core-plugins)
 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
 So that you can quickly stand-up a hapi.js server with a security scheme that leverages the Azure Active Directory Authentication Library, a public health-check route, self-documenting API (hapi-swagger), and server event methods for utilizing pm2 zero downtime deployments. This package exists to serve as the core server plugins for standing up a full-stack javascript application.
@@ -84,7 +84,6 @@ main().catch(console.error);
 1. `npm run dev`
 
 ## To-Dos
-1. https://semantic-release.gitbook.io/semantic-release/usage/ci-configuration
 1. add linting CI
 1. add tests (coverage badge) CI
 
