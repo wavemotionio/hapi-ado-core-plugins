@@ -15,8 +15,10 @@
     "clean": "rimraf lib/azureDevops",
     "dev": "npm run build && cross-env NODE_ENV=dev node tests/server.js",
     "type-check": "tsc --noEmit",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "./node_modules/.bin/eslint lib/**.js"
   },
+  "pre-commit": ["test"],
   "keywords": [
     "hapi",
     "plugin",
@@ -50,7 +52,9 @@
     "@babel/preset-typescript": "^7.1.0",
     "@types/node": "^10.12.18",
     "cross-env": "^5.2.0",
+    "eslint": "^5.15.1",
     "hapi": "^18.1.0",
+    "pre-commit": "^1.2.2",
     "rimraf": "^2.6.3",
     "semantic-release": "^15.13.3",
     "typescript": "^3.2.2"

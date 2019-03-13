@@ -17,7 +17,6 @@
                 var clientId = '{{appConfig.clientId}}';
                 var replyUri = '{{appConfig.loginUrl}}';
                 var logoutRedirectUri = '{{appConfig.loginUrl}}/logout';
-                var azureDevOpsApi = '{{appConfig.adoApiUri}}';
                 var azureDevOpsResourceId = '{{appConfig.adoResourceId}}';
                 var authContext = new AuthenticationContext({
                     clientId: clientId,
@@ -45,8 +44,10 @@
                                         xhr.setRequestHeader("authorization", jwt);
                                     },
                                     success: function(data) {
-                                        if (data.status === "success") {
-                                            window.location = decodeURIComponent(window.location.href.split('?next=')[1] + '/');
+                                        if (data.status) {
+                                            var redirectURI = decodeURIComponent(window.location.href.split('?next=')[1] + '/');
+
+                                            window.location = redirectURI ? redirectURI : data.status;
                                         }
                                     }
                                 });
