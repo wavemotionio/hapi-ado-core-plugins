@@ -2,6 +2,7 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/dev/wavemotionio/hapi-ado-core-plugins.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins?targetFile=package.json)
 
 [![https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-ado-core-plugins)
 
@@ -81,8 +82,8 @@ main().catch(console.error);
 1. `npm run dev`
 
 ## To-Dos
-1. https://www.npmjs.com/package/goodparts
-1. https://snyk.io/
 1. https://semantic-release.gitbook.io/semantic-release/usage/ci-configuration
+1. add linting
+1. add tests
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
