@@ -1,6 +1,6 @@
 {
   "name": "hapi-ado-core-plugins",
-  "version": "0.0.0-development",
+  "version": "2.2.0",
   "description": "Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.",
   "repository": {
     "type": "git",
