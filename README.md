@@ -8,7 +8,7 @@
 # hapi-ado-core-plugins
 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
-Hapi.js plugins to augment Azure DevOps (ADAL-protected) microservers.  This package allows developers to quickly stand-up a hapi.js server with a security scheme that leverages the Azure Active Directory Authenitcation Library, a public health-check route, self-documenting API (hapi-swagger), and server event methods for utilizing pm2 zero downtime deployments.
+So that you can quickly stand-up a hapi.js server with a security scheme that leverages the Azure Active Directory Authentication Library, a public health-check route, self-documenting API (hapi-swagger), and server event methods for utilizing pm2 zero downtime deployments. This package exists to serve as the core server plugins for standing up a full-stack javascript application.
 
 ## Installation
 
