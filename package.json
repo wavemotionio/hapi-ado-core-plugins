@@ -57,7 +57,7 @@
     "@semantic-release/git": "^7.0.8",
     "@semantic-release/npm": "^5.1.4",
     "@semantic-release/release-notes-generator": "^7.1.4",
-    "@types/node": "^10.12.18",
+    "@types/node": "^11.11.3",
     "cross-env": "^5.2.0",
     "eslint": "^5.15.1",
     "hapi": "^18.1.0",
