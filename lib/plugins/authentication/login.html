@@ -36,18 +36,18 @@
                         authContext.acquireToken(
                             azureDevOpsResourceId,
                             function (error, jwt) {
+                                var rURI = decodeURIComponent(window.location.href.split('?next=')[1]);
+
                                 $.ajax({
                                     type: "POST",
-                                    url: window.location.origin,
-                                    contentType: "application/json",
+                                    url: `${window.location.origin}?r=${rURI}`,
+                                    contentType: 'application/json',
                                     beforeSend: function(xhr, settings) {
-                                        xhr.setRequestHeader("authorization", jwt);
+                                        xhr.setRequestHeader('authorization', jwt);
                                     },
                                     success: function(data) {
-                                        if (data.status) {
-                                            var redirectURI = decodeURIComponent(window.location.href.split('?next=')[1] + '/');
-
-                                            window.location = redirectURI ? redirectURI : data.status;
+                                        if (data.status === 'success') {
+                                            window.location = data.next;
                                         }
                                     }
                                 });

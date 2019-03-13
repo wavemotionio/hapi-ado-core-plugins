@@ -2,6 +2,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins?targetFile=package.json)
 ![David](https://img.shields.io/david/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/dev/wavemotionio/hapi-ado-core-plugins.svg)
+[![Greenkeeper badge](https://badges.greenkeeper.io/wavemotionio/hapi-ado-core-plugins.svg)](https://greenkeeper.io/)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a16842411d134d068e2d/maintainability)](https://codeclimate.com/github/wavemotionio/hapi-ado-core-plugins/maintainability)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/wavemotionio/hapi-ado-core-plugins.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/wavemotionio/hapi-ado-core-plugins/alerts/)
 [![Inline docs](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins)
@@ -87,4 +88,4 @@ main().catch(console.error);
 1. add linting CI
 1. add tests (coverage badge) CI
 
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues) [![Greenkeeper badge](https://badges.greenkeeper.io/wavemotionio/hapi-ado-core-plugins.svg)](https://greenkeeper.io/)
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
