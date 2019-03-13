@@ -87,4 +87,4 @@ main().catch(console.error);
 1. add linting CI
 1. add tests (coverage badge) CI
 
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues) [![Greenkeeper badge](https://badges.greenkeeper.io/wavemotionio/hapi-ado-core-plugins.svg)](https://greenkeeper.io/)
