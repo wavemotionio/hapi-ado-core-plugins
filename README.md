@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/wavemotionio/hapi-ado-core-plugins.svg)
+[![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
+[![Known Vulnerabilities](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins?targetFile=package.json)
 ![David](https://img.shields.io/david/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/dev/wavemotionio/hapi-ado-core-plugins.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins?targetFile=package.json)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a16842411d134d068e2d/maintainability)](https://codeclimate.com/github/wavemotionio/hapi-ado-core-plugins/maintainability)
 [![Inline docs](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins)
 
