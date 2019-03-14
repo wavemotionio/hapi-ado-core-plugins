@@ -9,7 +9,7 @@ bower_components
 referenceOnly
 
 #build
-lib/azureDevOps
+bin
 
 # Runtime data
 pids

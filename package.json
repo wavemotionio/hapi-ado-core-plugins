@@ -8,11 +8,12 @@
   },
   "main": "index.js",
   "files": [
+    "bin/",
     "lib/"
   ],
   "scripts": {
-    "build": "rimraf lib/azureDevops && tsc && babel src --out-dir lib --extensions \".ts,.tsx\"",
-    "clean": "rimraf lib/azureDevops",
+    "build": "rimraf bin && tsc && babel src --out-dir bin --extensions \".ts,.tsx\"",
+    "clean": "rimraf bin",
     "dev": "npm run build && cross-env NODE_ENV=dev node tests/server.js",
     "type-check": "tsc --noEmit",
     "semantic-release": "semantic-release",
