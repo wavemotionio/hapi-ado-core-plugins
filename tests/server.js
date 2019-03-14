@@ -28,7 +28,7 @@ const main = async () => {
                     devClientId: 'xxx',
                     devLoginUrl: 'http://localhost:1337',
                     adoApiUrl: 'https://dev.azure.com/<organization>/_apis/projects?api-version=4.0',
-                    adoResourceId: 'xxx'
+                    adoResourceId: '499b84ac-1321-427f-aa17-267ca6975798'
                 }
             },
             {
@@ -42,6 +42,29 @@ const main = async () => {
             },
             {
                 plugin: utilities
+            }
+        ]);
+
+        server.route([
+            {
+                method: 'GET',
+                path: '/a/b/c/d', 
+                config: {
+                    auth: 'session'
+                },
+                handler: async (request, h) => {
+                    return 'success'
+                },
+            },
+            {
+                method: 'GET',
+                path: '/e/f', 
+                config: {
+                    auth: 'session'
+                },
+                handler: async (request, h) => {
+                    return 'success'
+                }
             }
         ]);
 
