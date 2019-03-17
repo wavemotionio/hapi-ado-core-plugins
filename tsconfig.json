@@ -4,7 +4,7 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "declaration": true,
-        "outDir": "bin",
+        "outDir": "bin/azureDevOps",
         "resolveJsonModule": true,
         "typeRoots": [
           "node_modules/@types"
