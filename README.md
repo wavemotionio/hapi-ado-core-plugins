@@ -13,13 +13,11 @@
 [![https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-ado-core-plugins.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-ado-core-plugins)
 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
-
 So that you can quickly stand-up a hapi.js server with a security scheme that leverages the Azure Active Directory Authentication Library, a public health-check route, self-documenting API (hapi-swagger), and server event methods for utilizing pm2 zero downtime deployments.
 
 Common plugins used for Proof of Concepts.
 
 ## Installation
-
 1. `npm install hapi-ado-core-plugins --save`
 2. register plugin(s) with hapi.js server
 
@@ -87,37 +85,27 @@ main().catch(console.error);
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
 
 ### Development
-
 1. replace config values in tests/server.js
 1. `npm run dev`
 
 ### Commits
-
 Refer to `./.sgcrc`.
 
-1. Once changes are staged, instead of `git commit -m "commit message"`, enter `node_modules/.bin/sgc` and answer the questions.
+Once changes are staged, instead of `git commit -m "commit message"`, enter `node_modules/.bin/sgc` and answer the questions.
 
-<or>
+or...
 
-1. Install a cli tool globally that adheres to `@commitlint/config-conventional`, such as: [node-semantic-git-commit-cli](https://github.com/JPeer264/node-semantic-git-commit-cli).
+Install a cli tool globally that adheres to `@commitlint/config-conventional`, such as: [node-semantic-git-commit-cli](https://github.com/JPeer264/node-semantic-git-commit-cli).
 
 ## Credits
-
-### Hapi.js
-1. [hapi.js](https://hapijs.com)
-1. [hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie)
-1. [bassmaster](https://github.com/hapijs/bassmaster)
-1. [hapi-swagger](https://github.com/glennjones/hapi-swagger)
-
-### CI/Release
-1. [travis-ci](https://travis-ci.org/)
-1. [semantic-release](https://github.com/semantic-release/semantic-release)
-1. [husky](https://github.com/typicode/husky)
-1. [pm2](https://github.com/Unitech/pm2)
-1. [nginx](https://www.nginx.com/)
-
-### Microsoft
-1. [azure-devops-node-api](https://github.com/Microsoft/azure-devops-node-api)
-
-### Ubuntu
-1. [virtual machines](https://www.ubuntu.com/server)
+[hapi.js](https://hapijs.com)
+[hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie)
+[bassmaster](https://github.com/hapijs/bassmaster)
+[hapi-swagger](https://github.com/glennjones/hapi-swagger)
+[travis-ci](https://travis-ci.org/)
+[semantic-release](https://github.com/semantic-release/semantic-release)
+[husky](https://github.com/typicode/husky)
+[pm2](https://github.com/Unitech/pm2)
+[nginx](https://www.nginx.com/)
+[microsoft/azure-devops-node-api](https://github.com/Microsoft/azure-devops-node-api)
+[ubuntu/server](https://www.ubuntu.com/server)
