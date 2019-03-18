@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](https://travis-ci.org/wavemotionio/hapi-ado-core-plugins)
-[![Known Vulnerabilities](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins?targetFile=package.json)
+[![Greenkeeper badge](https://badges.greenkeeper.io/wavemotionio/hapi-ado-core-plugins.svg)](https://greenkeeper.io/)
 ![David](https://img.shields.io/david/wavemotionio/hapi-ado-core-plugins.svg)
 ![David](https://img.shields.io/david/dev/wavemotionio/hapi-ado-core-plugins.svg)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/wavemotionio/hapi-ado-core-plugins.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/wavemotionio/hapi-ado-core-plugins/context:javascript)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/wavemotionio/hapi-ado-core-plugins.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/wavemotionio/hapi-ado-core-plugins/alerts/)
+[![Known Vulnerabilities](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins/badge.svg?targetFile=package.json)](https://snyk.io/test/github/wavemotionio/hapi-ado-core-plugins?targetFile=package.json)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a16842411d134d068e2d/maintainability)](https://codeclimate.com/github/wavemotionio/hapi-ado-core-plugins/maintainability)
-[![Greenkeeper badge](https://badges.greenkeeper.io/wavemotionio/hapi-ado-core-plugins.svg)](https://greenkeeper.io/)
 [![Inline docs](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins.svg?branch=master)](http://inch-ci.org/github/wavemotionio/hapi-ado-core-plugins)
 
 # hapi-ado-core-plugins ![GitHub package.json version](https://img.shields.io/github/package-json/v/wavemotionio/hapi-ado-core-plugins.svg) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
