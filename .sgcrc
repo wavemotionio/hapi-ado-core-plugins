@@ -1,0 +1,60 @@
+{
+    "types": [
+      {
+        "type": "build:",
+        "description": "Build step",
+        "argKeys": ["b", "build"]
+      },
+      {
+        "type": "ci:",
+        "description": "Continuous Integration",
+        "argKeys": ["ci", "CI"]
+      },
+      {
+        "type": "chore:",
+        "description": "Configuration maintenance",
+        "argKeys": ["c", "chore"]
+      },
+      {
+        "type": "docs:",
+        "description": "Documentation",
+        "argKeys": ["d", "docs"]
+      },
+      {
+        "emoji": ":sparkles:",
+        "type": "feat:",
+        "description": "Feature",
+        "argKeys": ["f", "feat", "feature"]
+      },
+      {
+        "type": "fix:",
+        "description": "Bug fix",
+        "argKeys": ["fix"]
+      },
+      {
+        "type": "perf:",
+        "description": "Performance enhancement",
+        "argKeys": ["p", "perf"]
+      },
+      {
+        "type": "refactor:",
+        "description": "Refactor",
+        "argKeys": ["r", "refactor"]
+      },
+      {
+        "type": "revert:",
+        "description": "Revert changes",
+        "argKeys": ["rev", "revert"]
+      },
+      {
+        "type": "style:",
+        "description": "Styling",
+        "argKeys": ["s", "style"]
+      },
+      {
+        "type": "test:",
+        "description": "Tests",
+        "argKeys": ["t", "test"]
+      }   
+    ]
+}
