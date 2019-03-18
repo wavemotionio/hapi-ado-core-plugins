@@ -27,6 +27,7 @@
         "argKeys": ["f", "feat", "feature"]
       },
       {
+        "emoji": ":bug:",
         "type": "fix:",
         "description": "Bug fix",
         "argKeys": ["fix"]
