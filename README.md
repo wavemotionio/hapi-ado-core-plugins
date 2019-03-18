@@ -87,6 +87,10 @@ main().catch(console.error);
 
 ### Commits
 
-1. sgc (https://github.com/JPeer264/node-semantic-git-commit-cli)
+1. Once changes are staged, instead of `git commit -m "commit message"`, enter `node_modules/.bin/sgc` and answer the questions.
+
+<or>
+
+1. Install a cli tool globally such as: (https://github.com/JPeer264/node-semantic-git-commit-cli)
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
