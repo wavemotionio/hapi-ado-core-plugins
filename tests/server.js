@@ -1,5 +1,6 @@
 const { authAdalWeb, documentation, serverEvents, utilities } = require('../index'),
-    Hapi = require('hapi');
+    Hapi = require('hapi'),
+    path = require('path');
 
 const server = new Hapi.Server({
     host: 'localhost',
@@ -64,6 +65,21 @@ const main = async () => {
                 },
                 handler: async (request, h) => {
                     return 'success'
+                }
+            },
+            {
+                method: 'GET',
+                path: `/files/{param*}`,
+                config: {
+                    auth: 'session'
+                },
+                handler: {
+                    directory: {
+                        path: `${path.join(__dirname, '../test')}`,
+                        redirectToSlash: false,
+                        index: true,
+                        listing: true
+                    }
                 }
             }
         ]);
