@@ -14,6 +14,7 @@
   "scripts": {
     "build": "rimraf bin && tsc && babel src --out-dir bin --extensions \".ts,.tsx\"",
     "clean": "rimraf bin",
+    "commit": "node_modules/.bin/sgc",
     "dev": "npm run build && cross-env NODE_ENV=dev node tests/server.js",
     "lint": "./node_modules/.bin/eslint lib/**.js",
     "semantic-release": "semantic-release",

@@ -91,7 +91,7 @@ main().catch(console.error);
 ### Commits
 Refer to `./.sgcrc`.
 
-Once changes are staged, instead of `git commit -m "commit message"`, enter `node_modules/.bin/sgc` and answer the questions.
+Once changes are staged, instead of `git commit -m "commit message"`, enter `npm run commit` and answer the questions.
 
 or...
 
