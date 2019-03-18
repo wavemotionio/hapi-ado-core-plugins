@@ -15,15 +15,16 @@
     "build": "rimraf bin && tsc && babel src --out-dir bin --extensions \".ts,.tsx\"",
     "clean": "rimraf bin",
     "dev": "npm run build && cross-env NODE_ENV=dev node tests/server.js",
-    "type-check": "tsc --noEmit",
+    "lint": "./node_modules/.bin/eslint lib/**.js",
     "semantic-release": "semantic-release",
-    "test": "./node_modules/.bin/eslint lib/**.js"
+    "test": "./node_modules/.bin/lab test",
+    "type-check": "tsc --noEmit"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+      "pre-commit": "npm run lint && npm test",
+      "pre-push": "npm run lint && npm test"
     }
   },
   "keywords": [
