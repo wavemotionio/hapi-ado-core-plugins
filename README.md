@@ -107,5 +107,5 @@ Install a cli tool globally that adheres to `@commitlint/config-conventional`, s
 [husky](https://github.com/typicode/husky)
 [pm2](https://github.com/Unitech/pm2)
 [nginx](https://www.nginx.com/)
-[azure-devops-node-api](https://github.com/Microsoft/azure-devops-node-api)
-[virtual machines](https://www.ubuntu.com/server)
+[microsoft/azure-devops-node-api](https://github.com/Microsoft/azure-devops-node-api)
+[ubuntu/server](https://www.ubuntu.com/server)
