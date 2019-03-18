@@ -85,8 +85,8 @@ main().catch(console.error);
 1. replace config values in tests/server.js
 1. `npm run dev`
 
-## To-Dos
-1. add linting CI
-1. add tests (coverage badge) CI
+### Commits
+
+1. scg (https://github.com/JPeer264/node-semantic-git-commit-cli)
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
