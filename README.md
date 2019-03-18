@@ -87,6 +87,6 @@ main().catch(console.error);
 
 ### Commits
 
-1. scg (https://github.com/JPeer264/node-semantic-git-commit-cli)
+1. sgc (https://github.com/JPeer264/node-semantic-git-commit-cli)
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/wavemotionio/hapi-ado-core-plugins/issues)
