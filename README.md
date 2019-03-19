@@ -97,6 +97,8 @@ or...
 
 Install a cli tool globally that adheres to `@commitlint/config-conventional`, such as: [node-semantic-git-commit-cli](https://github.com/JPeer264/node-semantic-git-commit-cli).
 
+Note: View default [commit types here](https://github.com/JPeer264/node-semantic-git-commit-cli/blob/master/.sgcrc).
+
 ## Credits
 [hapi.js](https://hapijs.com)
 [hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie)
