@@ -38,7 +38,7 @@
   "author": "wavemotionio",
   "license": "ISC",
   "dependencies": {
-    "@babel/polyfill": "^7.2.5",
+    "@babel/polyfill": "^7.4.0",
     "async": "^2.6.1",
     "azure-devops-node-api": "^7.0.0",
     "bassmaster": "^3.2.0",
