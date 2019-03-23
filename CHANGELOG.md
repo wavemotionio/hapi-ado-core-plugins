@@ -1,5 +1,12 @@
 Change Log
 
+# [5.2.0](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v5.1.3...v5.2.0) (2019-03-23)
+
+
+### Features
+
+* adds repository info to healthcheck ([8974f8e](https://github.com/wavemotionio/hapi-ado-core-plugins/commit/8974f8e))
+
 ## [5.1.3](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v5.1.2...v5.1.3) (2019-03-18)
 
 
