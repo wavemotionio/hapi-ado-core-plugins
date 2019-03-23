@@ -42,7 +42,13 @@ const main = async () => {
                 plugin: serverEvents
             },
             {
-                plugin: utilities
+                plugin: utilities,
+                options: {
+                    repository: {
+                        name: 'test-package-name',
+                        version: '1.0.5'
+                    }
+                }
             }
         ]);
 
