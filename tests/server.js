@@ -1,6 +1,7 @@
 const { authAdalWeb, documentation, serverEvents, utilities } = require('../index'),
     Hapi = require('hapi'),
-    path = require('path');
+    path = require('path'),
+    authStrategyName = 'session';
 
 const server = new Hapi.Server({
     host: 'localhost',
@@ -15,27 +16,34 @@ const main = async () => {
     console.log('Server initializing...');
 
     try {
-        await server.register([
-            {
-                plugin: authAdalWeb,
-                options: {
-                    loginRoute: '/',
-                    landingPageRoute: '/docs',
-                    cookieKey: 'password-should-be-32-characters',
-                    strategyName: 'session',
-                    adoServerUrl: 'https://dev.azure.com/<organization>',
-                    prodClientId: 'xxx',
-                    prodLoginUrl: 'http://localhost:1337',
-                    devClientId: 'xxx',
-                    devLoginUrl: 'http://localhost:1337',
-                    adoApiUrl: 'https://dev.azure.com/<organization>/_apis/projects?api-version=4.0',
-                    adoResourceId: '499b84ac-1321-427f-aa17-267ca6975798'
+
+        if (authStrategyName) {
+            await server.register([
+                {
+                    plugin: authAdalWeb,
+                    options: {
+                        loginRoute: '/',
+                        landingPageRoute: '/docs',
+                        cookieKey: 'password-should-be-32-characters',
+                        strategyName: authStrategyName,
+                        adoServerUrl: 'https://dev.azure.com/<organization>',
+                        prodClientId: 'xxx',
+                        prodLoginUrl: 'http://localhost:1337',
+                        devClientId: 'xxx',
+                        devLoginUrl: 'http://localhost:1337',
+                        adoApiUrl: 'https://dev.azure.com/<organization>/_apis/projects?api-version=4.0',
+                        adoResourceId: '499b84ac-1321-427f-aa17-267ca6975798'
+                    }
                 }
-            },
+            ]);
+        }
+
+        await server.register([
             {
                 plugin: documentation,
                 options: {
-                    documentationPathRoute: '/docs'
+                    documentationPathRoute: '/docs',
+                    authStrategyName
                 }
             },
             {
@@ -57,7 +65,7 @@ const main = async () => {
                 method: 'GET',
                 path: '/a/b/c/d', 
                 config: {
-                    auth: 'session'
+                    auth: authStrategyName || false
                 },
                 handler: async (request, h) => {
                     return 'success'
@@ -67,7 +75,7 @@ const main = async () => {
                 method: 'GET',
                 path: '/e/f', 
                 config: {
-                    auth: 'session'
+                    auth: authStrategyName || false
                 },
                 handler: async (request, h) => {
                     return 'success'
@@ -77,7 +85,7 @@ const main = async () => {
                 method: 'GET',
                 path: `/files/{param*}`,
                 config: {
-                    auth: 'session'
+                    auth: authStrategyName || false
                 },
                 handler: {
                     directory: {
