@@ -1,5 +1,12 @@
 Change Log
 
+## [6.0.1](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v6.0.0...v6.0.1) (2019-04-23)
+
+
+### Bug Fixes
+
+* es6 removed ([772c9d8](https://github.com/wavemotionio/hapi-ado-core-plugins/commit/772c9d8))
+
 # [6.0.0](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v5.2.0...v6.0.0) (2019-04-09)
 
 
