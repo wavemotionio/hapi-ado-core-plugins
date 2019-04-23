@@ -36,11 +36,12 @@
                         authContext.acquireToken(
                             azureDevOpsResourceId,
                             function (error, jwt) {
-                                var rURI = decodeURIComponent(window.location.href.split('?next=')[1]);
+                                var rURI = decodeURIComponent(window.location.href.split('?next=')[1]),
+                                    pURI = window.location.origin + '?r=' + rURI;
 
                                 $.ajax({
                                     type: "POST",
-                                    url: `${window.location.origin}?r=${rURI}`,
+                                    url: pURI,
                                     contentType: 'application/json',
                                     beforeSend: function(xhr, settings) {
                                         xhr.setRequestHeader('authorization', jwt);
