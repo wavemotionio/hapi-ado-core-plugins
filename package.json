@@ -41,14 +41,14 @@
     "@babel/polyfill": "^7.4.0",
     "@hapi/joi": "^15.0.3",
     "@hapi/boom": "^7.4.2",
+    "@hapi/cookie": "^10.1.0",
     "@hapi/inert": "^5.2.0",
     "@hapi/vision": "^5.5.2",
     "async": "^3.0.0",
     "azure-devops-node-api": "^8.0.0",
     "bassmaster": "^3.2.0",
     "handlebars": "^4.0.12",
-    "hapi-auth-cookie": "^10.0.0",
-    "hapi-swagger": "^9.3.2",
+    "hapi-swagger": "next",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
@@ -65,7 +65,7 @@
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/commit-analyzer": "^6.1.0",
     "@semantic-release/git": "^7.0.8",
-    "@semantic-release/npm": "^5.1.7",
+    "@semantic-release/npm": "^5.1.9",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "@types/node": "^12.0.2",
     "code": "^5.2.4",
@@ -75,7 +75,7 @@
     "lab": "^18.0.2",
     "rimraf": "^2.6.3",
     "semantic-git-commit-cli": "^3.3.0",
-    "semantic-release": "^15.13.12",
+    "semantic-release": "^15.13.14",
     "typescript": "^3.4.5"
   },
   "greenkeeper": {
