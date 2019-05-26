@@ -1,5 +1,17 @@
 Change Log
 
+# [7.0.0](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v6.0.1...v7.0.0) (2019-05-26)
+
+
+### Bug Fixes
+
+* upgrade hapi ([b6a7adb](https://github.com/wavemotionio/hapi-ado-core-plugins/commit/b6a7adb))
+
+
+### BREAKING CHANGES
+
+* updated dependencies
+
 ## [6.0.1](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v6.0.0...v6.0.1) (2019-04-23)
 
 
