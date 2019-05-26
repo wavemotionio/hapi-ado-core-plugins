@@ -42,7 +42,7 @@ Install a cli tool globally that adheres to `@commitlint/config-conventional`, s
 
 Note: View default [commit types here](https://github.com/JPeer264/node-semantic-git-commit-cli/blob/master/.sgcrc).
 
-## Credits
+## Resources
 [hapi.js](https://hapijs.com)
 [hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie)
 [bassmaster](https://github.com/hapijs/bassmaster)
