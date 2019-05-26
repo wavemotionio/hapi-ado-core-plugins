@@ -1,7 +1,7 @@
 const Lab = require('lab');
 const Code = require('code');
 const Path = require('path');
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 
 // Test files must require the lab module, and export a test script
 const lab = (exports.lab = Lab.script());

@@ -1,5 +1,5 @@
 const { authAdalWeb, documentation, serverEvents, utilities } = require('../index'),
-    Hapi = require('hapi'),
+    Hapi = require('@hapi/hapi'),
     path = require('path'),
     authStrategyName = 'session';
 
