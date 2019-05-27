@@ -1,11 +1,11 @@
 const { authAdalWeb, documentation, serverEvents, utilities } = require('../index'),
     Hapi = require('@hapi/hapi'),
     path = require('path'),
-    authStrategyName = 'session';
+    authStrategyName = false;
 
 const server = new Hapi.Server({
     host: 'localhost',
-    port: 1337,
+    port: 3000,
     router: {
         stripTrailingSlash: true
     },
@@ -42,8 +42,7 @@ const main = async () => {
             {
                 plugin: documentation,
                 options: {
-                    documentationPathRoute: '/docs',
-                    authStrategyName
+                    documentationPathRoute: '/'
                 }
             },
             {
@@ -55,44 +54,6 @@ const main = async () => {
                     repository: {
                         name: 'test-package-name',
                         version: '1.0.5'
-                    }
-                }
-            }
-        ]);
-
-        server.route([
-            {
-                method: 'GET',
-                path: '/a/b/c/d', 
-                config: {
-                    auth: authStrategyName || false
-                },
-                handler: async (request, h) => {
-                    return 'success'
-                },
-            },
-            {
-                method: 'GET',
-                path: '/e/f', 
-                config: {
-                    auth: authStrategyName || false
-                },
-                handler: async (request, h) => {
-                    return 'success'
-                }
-            },
-            {
-                method: 'GET',
-                path: `/files/{param*}`,
-                config: {
-                    auth: authStrategyName || false
-                },
-                handler: {
-                    directory: {
-                        path: `${path.join(__dirname, '../test')}`,
-                        redirectToSlash: false,
-                        index: true,
-                        listing: true
                     }
                 }
             }
