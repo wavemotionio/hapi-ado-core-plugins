@@ -1,5 +1,12 @@
 Change Log
 
+## [7.0.1](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v7.0.0...v7.0.1) (2019-05-27)
+
+
+### Bug Fixes
+
+* hapi-swagger config ([bae1a21](https://github.com/wavemotionio/hapi-ado-core-plugins/commit/bae1a21))
+
 # [7.0.0](https://github.com/wavemotionio/hapi-ado-core-plugins/compare/v6.0.1...v7.0.0) (2019-05-26)
 
 
