@@ -19,7 +19,9 @@
     "lint": "./node_modules/.bin/eslint lib/**.js",
     "semantic-release": "semantic-release",
     "test": "./node_modules/.bin/lab test",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -49,7 +51,8 @@
     "bassmaster": "^3.2.0",
     "handlebars": "^4.1.2",
     "hapi-swagger": "^10.0.2",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -88,5 +91,6 @@
       "dependencyPin": "chore(greenkeeper): Fix: Pin ${dependency} to ${oldVersion}",
       "devDependencyPin": "chore(greenkeeper): Fix: Pin ${dependency} to ${oldVersion}"
     }
-  }
+  },
+  "snyk": true
 }
