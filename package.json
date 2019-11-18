@@ -71,7 +71,7 @@
     "code": "^5.2.4",
     "cross-env": "^5.2.0",
     "eslint": "^6.0.0",
-    "husky": "^2.4.1",
+    "husky": "^3.1.0",
     "lab": "^18.0.2",
     "rimraf": "^2.6.3",
     "semantic-git-commit-cli": "^3.3.0",
