@@ -73,7 +73,7 @@
     "eslint": "^6.0.0",
     "husky": "^2.4.1",
     "lab": "^18.0.2",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.1",
     "semantic-git-commit-cli": "^3.3.0",
     "semantic-release": "^15.13.14",
     "typescript": "^3.5.1"
