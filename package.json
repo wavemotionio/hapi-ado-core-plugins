@@ -74,7 +74,7 @@
     "husky": "^2.4.1",
     "lab": "^18.0.2",
     "rimraf": "^2.6.3",
-    "semantic-git-commit-cli": "^3.3.0",
+    "semantic-git-commit-cli": "^3.5.2",
     "semantic-release": "^15.13.14",
     "typescript": "^3.5.1"
   },
