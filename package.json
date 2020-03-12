@@ -39,7 +39,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "@hapi/boom": "^7.4.2",
+    "@hapi/boom": "^9.1.0",
     "@hapi/cookie": "^10.1.0",
     "@hapi/inert": "^5.2.0",
     "@hapi/joi": "^15.0.3",
